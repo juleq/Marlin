@@ -7,13 +7,8 @@
 
 <img align="right" width=175 src="buildroot/share/pixmaps/logo/marlin-250.png" />
 
-<<<<<<< HEAD
-Additional documentation can be found at the [Marlin Home Page](http://marlinfw.org/).
-Please let us know if Marlin misbehaves in any way. Volunteers are standing by!
-=======
 Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
 Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
->>>>>>> upstream/bugfix-2.0.x
 
 ## Marlin 2.0
 
@@ -23,9 +18,6 @@ Download earlier versions of Marlin on the [Releases page](https://github.com/Ma
 
 ## Building Marlin 2.0
 
-<<<<<<< HEAD
-To build Marlin 2.0 you'll need [Arduino IDE 1.8.8 or newer](https://www.arduino.cc/en/main/software) or [PlatformIO](http://docs.platformio.org/en/latest/ide.html#platformio-ide). Detailed build and install instructions are posted at:
-=======
 To build Marlin 2.0 you'll need [Arduino IDE 1.8.8 or newer](https://www.arduino.cc/en/main/software) or [PlatformIO](http://docs.platformio.org/en/latest/ide.html#platformio-ide). We've posted detailed instructions on [Building Marlin with Arduino](https://marlinfw.org/docs/basics/install_arduino.html) and [Building Marlin with PlatformIO for ReArm](https://marlinfw.org/docs/basics/install_rearm.html) (which applies well to other 32-bit boards).
 
 ## Hardware Abstraction Layer (HAL)
@@ -53,7 +45,6 @@ Marlin 2.0 introduces a layer of abstraction so that all the existing high-level
   [ESP32](https://www.espressif.com/en/products/hardware/esp32/overview)|Tensilica Xtensa LX6|240MHz|---|---|3.3V|---
 
   #### LPC1768 / LPC1769
->>>>>>> upstream/bugfix-2.0.x
 
   - [Installing Marlin (Arduino)](http://marlinfw.org/docs/basics/install_arduino.html)
   - [Installing Marlin (VSCode)](http://marlinfw.org/docs/basics/install_platformio_vscode.html).
@@ -76,10 +67,6 @@ Marlin 2.0 introduces a layer of abstraction so that all the existing high-level
 
 ## Submitting Changes
 
-<<<<<<< HEAD
-- Submit **Bug Fixes** as Pull Requests to the ([bugfix-2.0.x](https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x)) branch.
-- Follow the [Coding Standards](http://marlinfw.org/docs/development/coding_standards.html) to gain points with the maintainers.
-=======
   boards|processor|speed|flash|sram|logic|fpu
   ----|---------|-----|-----|----|-----|---
   [Arduino STM32](https://github.com/rogerclarkmelbourne/Arduino_STM32)|[STM32F1](https://www.st.com/en/microcontrollers-microprocessors/stm32f103.html) ARM-Cortex M3|72MHz|256-512k|48-64k|3.3V|no
@@ -116,7 +103,6 @@ Proposed patches should be submitted as a Pull Request against the ([bugfix-2.0.
 
 - This branch is for fixing bugs and integrating any new features for the duration of the Marlin 2.0.x life-cycle.
 - Follow the [Coding Standards](https://marlinfw.org/docs/development/coding_standards.html) to gain points with the maintainers.
->>>>>>> upstream/bugfix-2.0.x
 - Please submit your questions and concerns to the [Issue Queue](https://github.com/MarlinFirmware/Marlin/issues).
 
 ## Marlin Support

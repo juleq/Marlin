@@ -147,10 +147,7 @@
 #define EXTRUDERS 1
 
 // Generally expected filament diameter (1.75, 2.85, 3.0, ...). Used for Volumetric, Filament Width Sensor, etc.
-<<<<<<< HEAD
 // The Anet A8 original extruder is designed for 1.75mm
-=======
->>>>>>> upstream/bugfix-2.0.x
 #define DEFAULT_NOMINAL_FILAMENT_DIA 1.75
 
 // For Cyclops or any "multi-extruder" that shares a single nozzle.
@@ -576,11 +573,7 @@
   //#define PID_DEBUG             // Sends debug data to the serial port. Use 'M303 D' to toggle activation.
   //#define PID_OPENLOOP          // Puts PID in open loop. M104/M140 sets the output power from 0 to PID_MAX
   //#define SLOW_PWM_HEATERS      // PWM with very low frequency (roughly 0.125Hz=8s) and minimum state time of approximately 1s useful for heaters driven by a relay
-<<<<<<< HEAD
   #define PID_FUNCTIONAL_RANGE 15 // If the temperature difference between the target temperature and the actual temperature
-=======
-  #define PID_FUNCTIONAL_RANGE 10 // If the temperature difference between the target temperature and the actual temperature
->>>>>>> upstream/bugfix-2.0.x
                                   // is more than PID_FUNCTIONAL_RANGE then the PID will be shut off and the heater will be set to min/max.
 #endif
 
@@ -837,11 +830,7 @@
  *   http://blog.kyneticcnc.com/2018/10/computing-junction-deviation-for-marlin.html
  */
 #if DISABLED(CLASSIC_JERK)
-<<<<<<< HEAD
   #define JUNCTION_DEVIATION_MM 0.10  // (mm) Distance from real junction edge
-=======
-  #define JUNCTION_DEVIATION_MM 0.013 // (mm) Distance from real junction edge
->>>>>>> upstream/bugfix-2.0.x
   #define JD_HANDLE_SMALL_SEGMENTS    // Use curvature estimation instead of just the junction angle
                                       // for small segments (< 1mm) with large junction angles (> 135°).
 #endif
